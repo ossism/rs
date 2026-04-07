@@ -27,11 +27,13 @@ fn main() {
     // Variable padding, with `$`
     println!("{n:0>w$}", n = 1, w = 10);
 
+    println!("My name is {0}, {1} {0}", "Bond", "James");
+
     #[allow(dead_code)]
     struct S(i32);
 
     // Unless the struct S implements `fmt::Display`, you cannot do this...
-    // println!("This struct `{}` won't print", S(5));
+    //println!("This struct `{}` won't print", S(5));
 
     // From the variables
     let n: f64 = 1.0;
