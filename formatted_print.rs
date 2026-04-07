@@ -40,4 +40,8 @@ fn main() {
     let w: usize = 5;
 
     println!("{n:>w$}");
+
+    // Printing pi
+    let pi = 3.141592;
+    println!("{:.2}", pi);
 }
