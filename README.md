@@ -72,6 +72,10 @@ rustc --explain E0765
 - `fmt::Debug` uses `{?}` marker. Formatting text for debugging(anything) purposes
 - `fmt::Display` uses the `{}` marker. Pretty formatting text
 
+## Debug diplays
 
+- Use defined types i.e. `struct`(s) cannot be formated for output
+- `fmt::Display` trait HAS to be implemented printable in any form
+- ANY user defined type(`struct`) CAN `derive` `fmt::Debug` trait using the attribute 
 
  
