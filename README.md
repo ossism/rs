@@ -79,3 +79,6 @@ rustc --explain E0765
 - ANY user defined type(`struct`) CAN `derive` `fmt::Debug` trait using the attribute
 - To print using the debug mode use `{:?}`, all the primitives of the `{}` apply to this as well
 - To pretty print `struct`'s using `println!` use the `{:#?}`
+
+## Display `traits`
+
